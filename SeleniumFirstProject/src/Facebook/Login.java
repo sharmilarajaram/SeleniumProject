@@ -10,7 +10,7 @@ public class Login {
 		//System.setProperty("webdriver.firefox.profile", "default");
 		System.setProperty("webdriver.chrome.driver","F:\\chromedriver.exe");
 		WebDriver driver =new ChromeDriver(); 
-		driver.get("http://www.facebook.com");
+		driver.get("http://www.google.com");
 		driver.manage().window().maximize(); 
 		
 		driver.findElement(By.xpath("//*[@id=\"email\"]")).sendKeys("sharmilarajaram93@gmail.com");
